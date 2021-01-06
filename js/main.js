@@ -3,17 +3,18 @@ let btnIncrease = document.getElementById('btnIncrease');
 let btnDecrease = document.getElementById('btnDecrease');
 let countUp = 0;
 let updated = 0;
-let count = []; 
+let value = 0; 
+let count = [];
 
 
 
 
 function increase() {
-    input == count + intValue;
+    input = count += value;
 }
 
 function decrease() {
-    input == count - intValue;
+    input = count -= value;
 }
 
 document.addEventListener("DOMContentLoaded", ()=> {
@@ -24,12 +25,15 @@ document.addEventListener("DOMContentLoaded", ()=> {
     // initial count 0
     count = 0;
     // When the "+" button is clicked
-    countUp = btnIncrease.target.addEventListener('click', increase);
-    console.log("more");
+    function count() { 
+        if( input < value) {
+            countUp = btnIncrease.target.addEventListener('click', increase);
+            console.log(countUp)
+        }    
         // When button is clicked, the value entered in input is added to count
     //When the "-" button id clicked
     countDown = btnDecrease.target.addEventListener('click', decrease);
-    console.log("less");
+    }
         // When button is clicked, the value entered in input is subtracted from count
     // display new count
 
