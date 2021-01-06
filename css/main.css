@@ -5,6 +5,24 @@
     text-align: center;
 }
 
-body {
-    
+.container {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    margin-top: 300px;
+
+}
+
+
+
+
+
+
