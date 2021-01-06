@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
     count = 0;
     // When the "+" button is clicked
     function count() { 
+        
         if( input < value) {
             countUp = btnIncrease.target.addEventListener('click', increase);
             console.log(countUp)
