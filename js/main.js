@@ -1,2 +1,5 @@
-console.log("🥶Freezing");
+document.addEventListener("DOMContentLoaded", ()=> {
+    console.log("🥶Freezing");
+})
+
 
