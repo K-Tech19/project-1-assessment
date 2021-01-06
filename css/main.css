@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -31,7 +35,7 @@
 }
 
 
-.btnIncrease, .btnDecrease {
+.btn {
     background-color: rgb(212, 211, 211);
     border: 3px solid white;
     color: white;
@@ -44,7 +48,7 @@
 }
 
 
-.btnIncrease:hover, .btnDecrease:hover {
+.btn:hover {
     background-color: white;
     color: grey;
     border: 3px solid grey;
@@ -56,5 +60,6 @@
     padding: 20px;
     border-radius: 10px;
     font-size: 45px;
+    font-family: "Roboto", sans-serif;
     border: 5px solid rgb(193, 193, 193);
 }
