@@ -16,7 +16,7 @@
     width: 100%;
 }
 
-.display {
+#display {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,7 @@
     border: 3px solid grey;
 }
 
-.input {
+#input-value {
     height: 90px;
     width: 150px;
     padding: 20px;
